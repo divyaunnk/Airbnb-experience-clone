@@ -1,16 +1,10 @@
-import Card from './Components/Card.js';
-import Hero from './Components/Hero.js';
-import NavBar from './Components/NavBar.js';
-import './App.css';
+import React from "react"
+import Navbar from "./Components/NavBar.js"
 
-function App() {
-  return (
-    <div className="App">
-      {/* <Card />
-      <Hero /> */}
-      <NavBar />
-    </div>
-  );
+export default function App() {
+    return (
+        <div>
+            <Navbar />
+        </div>
+    )
 }
-
-export default App;
